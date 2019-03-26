@@ -22,10 +22,10 @@ public class SoftAssertionFalseTestPass {
 	public void failTestDemo()
 	{
 		//Test Condition 2: If page title did not match with actualTitle then script throws an exception
-		System.setProperty("webdriver.gecko.driver", "D:\\testing\\Selenium\\geckodriver-v0.23.0-win32\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "D:\\testing\\Selenium\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.gmail.com");
-		String actualTitle = "GoogleMail";
+		String actualTitle = "Gmail";
 		//Assert.assertEquals(driver.getTitle(), actualTitle, "Title not matched");
 		Assert.assertEquals(driver.getTitle(), actualTitle);
 	}
