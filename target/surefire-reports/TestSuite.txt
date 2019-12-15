@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 1, Errors: 0, Skipped: 18, Time elapsed: 1.8 s <<< FAILURE! - in TestSuite
+setup(com.qa.TestCase.AmazonLoginPageTest)  Time elapsed: 1.452 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Automation\chromedriver_win32\chromedriver.exe
+	at com.qa.TestCase.AmazonLoginPageTest.setup(AmazonLoginPageTest.java:21)
+
